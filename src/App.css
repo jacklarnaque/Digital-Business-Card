@@ -14,8 +14,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  height: 868px;
+  width: 550px;
   max-width: 550px;
   max-height: 868px;
   padding: 1%;
@@ -63,7 +63,7 @@ border-radius: 10px 10px 0px 0px;
 
 }
 .status {
-  font-size: 1rem;
+  font-size: 0.7rem;
   color: #5093E2;
   margin-top: 0;
   color: #F3BF99;
@@ -71,18 +71,19 @@ border-radius: 10px 10px 0px 0px;
 
 .name {
   margin-bottom: 0%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #FFFFFF;
 }
 
 h3 {
   color: #F5F5F5;
-  font-size: 0.7rem
+  font-size: 0.5rem
 }
 .footer {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  align-items: center;
   background-color: #161619;
   width: 317px;
   height: 64px;
@@ -94,4 +95,21 @@ h3 {
   background: #918e9ba2;
   font-size: 1.8rem;
   
+}
+
+.about p {
+  line-height: 150%;
+  font-size: 0.6rem;
+  text-align: justify;
+  margin: 0px 35px 35px 35px;
+  color: rgba(220, 220, 220, 1);
+}
+.about h3 {
+  font-size: 1.1rem;
+  text-align: left;
+  margin-left: 35px;
+  margin-bottom: 2px;
+}
+.about {
+  padding-bottom: 5px;
 }
